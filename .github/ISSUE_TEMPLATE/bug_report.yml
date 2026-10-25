@@ -1,0 +1,35 @@
+name: 问题反馈
+description: 反馈连接、环境检查或软件运行问题
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请不要上传个人 GPX、路线坐标、设备 UDID、证书或完整原始日志。优先使用软件导出的环境报告。
+  - type: input
+    id: app_version
+    attributes:
+      label: 软件版本
+      placeholder: 例如 1.3.0-beta.1
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: macOS、Xcode、手机型号和 iOS 版本，或经过自行检查的环境报告。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤和实际结果
+      description: 描述执行了什么、希望发生什么、实际发生什么；截图请遮盖个人信息。
+    validations:
+      required: true
+  - type: checkboxes
+    id: data
+    attributes:
+      label: 公开信息检查
+      options:
+        - label: 我已检查附件，没有包含个人路线、设备标识或账号信息。
+          required: true
