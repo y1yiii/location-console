@@ -1,0 +1,11 @@
+name: 功能建议
+description: 描述希望改进的使用场景
+title: "[建议] "
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 当前哪里不方便，希望如何操作？请不要附个人坐标或账号信息。
+    validations:
+      required: true
