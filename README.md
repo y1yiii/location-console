@@ -2,7 +2,7 @@
 
 通过 Mac 的 Xcode 开发服务，为 USB 连接的 iPhone 设置固定位置或播放 GPX 路线。
 
-**提供编译好的 Mac 软件包。需要兼容的完整 Xcode；无需自行编译，也无需 Python 或 Codex。**
+**提供编译好的 Mac 软件包。需要兼容的完整 Xcode。**
 
 当前版本：**v1.3.0-beta.1** · Apple Silicon · MIT
 
